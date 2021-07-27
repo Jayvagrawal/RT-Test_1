@@ -20,7 +20,7 @@ export default function App() {
     if (ut >= 0) {
       updateTime(ut);
     } else {
-      alert("Value should not be less than value zero");
+      alert("Value should not be less than zero");
     }
   };
 
