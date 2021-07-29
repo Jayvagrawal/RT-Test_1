@@ -1,0 +1,227 @@
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+} */
+/* .heading_style{
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: cadetblue;
+    background-color: cornsilk;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+} */
+/* .cards {
+    width: 100%;
+    height: auto;
+}
+.card{
+ 
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: cornsilk;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px -7px rgba(0, 0,0,0.1);
+    float: left;
+}
+
+.card:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0,0,0.1);
+    transform: scale(1.05 , 1.05);
+}
+
+.card_img{
+    width: 100%;
+    height: 200px;
+} */
+
+/* button{
+    cursor: pointer;
+} */
+
+/* div{
+    width: 100%;
+    height: 100vh;
+    background: #8e44ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* h1{
+    color: white;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
+} */
+
+/* button{
+    padding: 12px 20px;
+    background: #9b59b6;
+    color: white;
+    border: 2px solid #ecf0f1;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+} */
+
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background: #6983aa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div {
+  width: 25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow: 5px 5px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+h1 {
+  color: white;
+  background: transparent;
+  background-color: #8566aa;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60px;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+
+/* button{
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0,0,0.3);
+} */
+
+.button_del {
+  min-height: 25px;
+  width: 25px;
+  border-radius: 35%;
+  border-color: transparent;
+  background-color: crimson;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #20bf6b;
+}
+
+ol {
+  margin-top: 30px;
+}
+
+ol li {
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-times:hover {
+  background-color: crimson;
+}
+
+.todo_style .fa-times:hover .list_style {
+  color: crimson;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+
+  .todo_style .fa-times {
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 30px;
+  }
+  .button_del {
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+.btn_green:hover {
+  color: green;
+}
+
+.btn_red:hover {
+  color: red;
+}

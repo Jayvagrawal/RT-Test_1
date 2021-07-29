@@ -7,6 +7,7 @@
   "dependencies": {
     "@material-ui/core": "4.12.2",
     "@material-ui/icons": "4.11.2",
+    "material-ui-fast-ripple": "1.0.1",
     "react": "17.0.2",
     "react-countdown": "2.3.2",
     "react-digital-clock": "0.1.2",
